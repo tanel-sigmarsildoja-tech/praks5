@@ -1,7 +1,7 @@
 #!/bin/bash
 #Greets jou according to time of the day in hours
-
-echo "Hour of the day, 24h: "
+#Lets also try automatic time, see yl4
+echo -n "Hour of the day, 24h: "
 read aeg
 
 if [ $aeg -ge 6 -a $aeg -lt 12 ]; then
